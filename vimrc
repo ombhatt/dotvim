@@ -19,3 +19,9 @@ hi CursorLine term=none cterm=none ctermbg=4
 let mapleader = ","
 
 runtime! macros/matchit.vim
+
+
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
