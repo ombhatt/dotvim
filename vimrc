@@ -20,6 +20,9 @@ let mapleader = ","
 
 runtime! macros/matchit.vim
 
+au FocusLost * silent! wa
+set undofile
+set undodir=~/.vim/undodir
 
 nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
